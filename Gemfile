@@ -58,6 +58,8 @@ gem "prawn"
 
 gem "wicked_pdf"
 
+gem 'faker'
+
 gem 'net-http'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]

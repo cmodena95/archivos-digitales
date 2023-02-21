@@ -69,6 +69,7 @@
 					<% path = cl_image_path(doc.file.key) + ".jpg" %>
 					<% index = path.index("/upload/") + path["/upload/"].size %>
 
+
 					<% url = URI.parse(path) %>
 					<%# <% req = Net::HTTP.new(url.host, url.port) %>
 					<%# <% req.use_ssl = true %>

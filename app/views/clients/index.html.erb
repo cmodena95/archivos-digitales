@@ -1,3 +1,9 @@
-<% @clients.each do |client| %>
-  <%= link_to client %>
-<% end %>
+<div class="container">
+  <h1>Clientes</h1>
+
+  <div class="client-grid">
+    <% @clients.each do |client| %>
+      <%= render client %>
+    <% end %>
+  </div>
+</div>

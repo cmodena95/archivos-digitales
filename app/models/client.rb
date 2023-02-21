@@ -1,3 +1,3 @@
 class Client < ApplicationRecord
-  has_many :document
+  has_many :documents
 end

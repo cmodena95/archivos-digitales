@@ -1,0 +1,30 @@
+.client-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.client-card {
+  height: 194px;
+  width: 100%;
+  border: 2px solid #292722;
+  border-radius: 10px;
+  box-shadow: -10px 10px 0px rgba(0, 0, 0, 0.25);
+
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+
+  &:hover {
+    background-color: #F1987C;
+  }
+}
+
+.client-card-left {
+  border-right: 2px solid #292722;
+}
+
+.client-card-right {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
